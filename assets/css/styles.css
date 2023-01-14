@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: sans-serif;
+  @apply leading-normal tracking-normal text-white gradient;
+}
+
+.gradient {
+  background: linear-gradient(90deg, #1d3557 0%, #7ad7da 100%);
+}
+
+.thicker-text {
+  -webkit-text-stroke-width: thin;
+}
+
+.content-block ol {
+  padding-top: 0;
+  list-style-type: lower-roman;
+  padding-left: 2rem;
+  line-height: 1.5rem;
+}
+
+.content-block li {
+  line-height: 0.5rem;
+}
+
+.content-block p {
+  padding: 0;
+  line-height: 1.5rem;
+}
